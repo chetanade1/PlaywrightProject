@@ -57,14 +57,6 @@ test('Verify the input box', async({page}) => {
     await expect(page.locator("//input[@id = 'male' and @name = 'gender']").isChecked()).toBeTruthy();
     console.log("gender is checked");
 
-    
-
-    
-
-
-
-
-
 
 
     //Wait for 5 seconds
