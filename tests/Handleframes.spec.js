@@ -9,8 +9,6 @@ test('handle the frames', async ({page}) => {
     await frame1.locator("//input[@name=('mytext1')]").fill("chetan ade");
 
 
-
-
     //wait for 5 sec
     await page.waitForTimeout(5000);
 
